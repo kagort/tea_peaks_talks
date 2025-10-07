@@ -1,0 +1,67 @@
+{
+  "permalink": "/tea_peaks_talks/blog/cleopatra-carpet-translation-issue",
+  "source": "@site/blog/2025-10-04-Cleopatra-Carpet-Translation-Issue.md",
+  "title": "Ковёр Клеопатры и проблема перевода",
+  "description": "Образ Клеопатры всегда вызывал у меня какое-то подростковое волнение. Возможно, ещё в нежном возрасте мне попадались на глаза постеры фильма 1963 г. с Элизабет Тэйлор. Если полистать кадры из фильма, там и сейчас есть от чего волноваться.",
+  "date": "2025-10-04T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "чай_горы_разговоры",
+      "permalink": "/tea_peaks_talks/blog/tags/чай-горы-разговоры"
+    },
+    {
+      "inline": true,
+      "label": "история",
+      "permalink": "/tea_peaks_talks/blog/tags/история"
+    },
+    {
+      "inline": true,
+      "label": "перевод",
+      "permalink": "/tea_peaks_talks/blog/tags/перевод"
+    },
+    {
+      "inline": true,
+      "label": "античность",
+      "permalink": "/tea_peaks_talks/blog/tags/античность"
+    }
+  ],
+  "readingTime": 5.48,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Pavel Baryshnikov",
+      "title": "Автор",
+      "url": "https://github.com/kagort",
+      "image_url": "https://avatars.githubusercontent.com/u/149759834?s=400&u=e54658a9fefd7defa39afe6af6553ce047d68922&v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/149759834?s=400&u=e54658a9fefd7defa39afe6af6553ce047d68922&v=4",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "cleopatra-carpet-translation-issue",
+    "title": "Ковёр Клеопатры и проблема перевода",
+    "authors": [
+      {
+        "name": "Pavel Baryshnikov",
+        "title": "Автор",
+        "url": "https://github.com/kagort",
+        "image_url": "https://avatars.githubusercontent.com/u/149759834?s=400&u=e54658a9fefd7defa39afe6af6553ce047d68922&v=4",
+        "imageURL": "https://avatars.githubusercontent.com/u/149759834?s=400&u=e54658a9fefd7defa39afe6af6553ce047d68922&v=4"
+      }
+    ],
+    "tags": [
+      "чай_горы_разговоры",
+      "история",
+      "перевод",
+      "античность"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/tea_peaks_talks/blog/welcome"
+  }
+}

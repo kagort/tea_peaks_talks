@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/tea_peaks_talks/blog","blogTitle":"Blog","authorsListPath":"/tea_peaks_talks/blog/authors"}')}}]);
