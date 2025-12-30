@@ -1,23 +1,12 @@
-﻿title: "Чай, горы, разговоры"
-description: "Личные заметки о путешествиях и размышлениях"
-baseurl: "/tea_peaks_talks"  # ИМЯ РЕПОЗИТОРИЯ!
+﻿# ДЛЯ PROJECT SITE (tea_peaks_talks):
+title: "Чай, горы, разговоры"
 url: "https://kagort.github.io"
+baseurl: "/tea_peaks_talks"  # ← ИМЯ РЕПОЗИТОРИЯ
 
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-author:
-  name: "Ваше Имя"
-  email: "ваш@email.com"
-minima:
-  date_format: "%d.%m.%Y"
-  social_links:
-    github: kagort
-lang: ru
-locale: "ru_RU"
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - .github
+# ДОБАВЬТЕ эти настройки:
+permalink: /:categories/:year/:month/:day/:title:output_ext
+# ИЛИ проще:
+permalink: /:year/:month/:day/:title:output_ext
+
+# Отключите pretty URLs для GitHub Pages
+permalink: /:year/:month/:day/:title.html
