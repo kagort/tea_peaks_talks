@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-12-30T21:33:19+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Чай, горы, разговоры</title><subtitle>Личные заметки о путешествиях и размышлениях</subtitle><author><name>Ваше Имя</name><email>ваш@email.com</email></author><entry><title type="html">Первый пост в блоге</title><link href="http://localhost:4000/%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9/%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE/2024/01/20/pervyy-post.html" rel="alternate" type="text/html" title="Первый пост в блоге" /><published>2024-01-20T12:00:00+03:00</published><updated>2024-01-20T12:00:00+03:00</updated><id>http://localhost:4000/%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9/%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE/2024/01/20/pervyy-post</id><content type="html" xml:base="http://localhost:4000/%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9/%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE/2024/01/20/pervyy-post.html"><![CDATA[<p>Привет, мир! 🎉</p>
+
+<p>Это мой первый пост в новом блоге.</p>
+
+<h2 id="о-чём-будет-этот-блог">О чём будет этот блог?</h2>
+
+<ol>
+  <li><strong>Горы</strong> – впечатления от походов и восхождений</li>
+  <li><strong>Чай</strong> – открытия новых сортов и ритуалов</li>
+  <li><strong>Разговоры</strong> – мысли, идеи, диалоги</li>
+</ol>
+
+<hr />
+<p><em>20 января 2024</em></p>]]></content><author><name>Ваше Имя</name><email>ваш@email.com</email></author><category term="первый" /><category term="начало" /><summary type="html"><![CDATA[Привет, мир! 🎉]]></summary></entry></feed>

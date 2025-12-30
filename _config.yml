@@ -1,0 +1,23 @@
+﻿title: "Чай, горы, разговоры"
+description: "Личные заметки о путешествиях и размышлениях"
+baseurl: "/tea_peaks_talks"  # ИМЯ РЕПОЗИТОРИЯ!
+url: "https://kagort.github.io"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+author:
+  name: "Ваше Имя"
+  email: "ваш@email.com"
+minima:
+  date_format: "%d.%m.%Y"
+  social_links:
+    github: kagort
+lang: ru
+locale: "ru_RU"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
