@@ -1,8 +1,7 @@
-﻿# _config.yml - рабочий и простой
-title: "Чай, горы, разговоры"
+﻿title: "Чай, горы, разговоры"
 description: "Личные заметки"
 url: "https://kagort.github.io"
-baseurl: "/tea_peaks_talks"  # имя вашего репозитория
+baseurl: "/tea_peaks_talks"
 
 theme: minima
 
@@ -12,16 +11,19 @@ minima:
   date_format: "%d.%m.%Y"
   show_excerpts: true
 
-# Плагины (только стандартные)
+# Плагины
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Простые permalink (убран /notes/)
 permalink: /:year/:month/:day/:title.html
 
-# Исключить лишнее
+# Sass настройки должны быть в корне, не внутри exclude
+sass:
+  sass_dir: assets/css
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - assets/images/source/  # если будете хранить исходники

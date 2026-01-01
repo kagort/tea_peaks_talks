@@ -1,0 +1,63 @@
+// Адаптивные изображения
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+// Изображения с обтеканием
+.image-float-left {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  max-width: 50%;
+  
+  @media (max-width: 768px) {
+    float: none;
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+.image-float-right {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  max-width: 50%;
+  
+  @media (max-width: 768px) {
+    float: none;
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+// Галерея
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.image-gallery img {
+  flex: 1 1 300px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+// Подписи к фото
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+// Очистка float
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
