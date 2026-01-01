@@ -1,0 +1,87 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Дополнительные стили
+.post-preview {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 3px solid #8B4513; // цвет чая
+}
+
+.post-preview:hover {
+  background-color: #f9f5f0;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 0.5rem;
+}
+
+.category {
+  background-color: #e8e8e8;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #8B4513;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #8B4513;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.btn:hover {
+  background-color: #A0522D;
+}
+
+// Стили для страницы всех постов
+.post-archive {
+  margin-bottom: 2rem;
+}
+
+.post-divider {
+  border: none;
+  height: 1px;
+  background-color: #eee;
+  margin: 2rem 0;
+}
+
+.category-tag {
+  display: inline-block;
+  background-color: #f0e6dc;
+  color: #8B4513;
+  padding: 2px 8px;
+  margin-right: 5px;
+  border-radius: 3px;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+// Главная страница
+.home-header {
+  text-align: center;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #f9f5f0 0%, #fff 100%);
+  border-bottom: 1px solid #eee;
+}
+
+.site-description {
+  font-size: 1.2em;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}

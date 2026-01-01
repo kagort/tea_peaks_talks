@@ -1,12 +1,27 @@
-﻿# ДЛЯ PROJECT SITE (tea_peaks_talks):
+﻿# _config.yml - рабочий и простой
 title: "Чай, горы, разговоры"
+description: "Личные заметки"
 url: "https://kagort.github.io"
-baseurl: "/tea_peaks_talks"  # ← ИМЯ РЕПОЗИТОРИЯ
+baseurl: "/tea_peaks_talks"  # имя вашего репозитория
 
-# ДОБАВЬТЕ эти настройки:
-permalink: /:categories/:year/:month/:day/:title:output_ext
-# ИЛИ проще:
-permalink: /:year/:month/:day/:title:output_ext
+theme: minima
 
-# Отключите pretty URLs для GitHub Pages
+# Простые настройки minima
+minima:
+  skin: classic
+  date_format: "%d.%m.%Y"
+  show_excerpts: true
+
+# Плагины (только стандартные)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Простые permalink (убран /notes/)
 permalink: /:year/:month/:day/:title.html
+
+# Исключить лишнее
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
