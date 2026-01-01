@@ -5,28 +5,19 @@ date: 2025-10-04 12:00:00 +0300
 categories: [искусство, разговоры]
 ---
 
----
-title: Ковёр Клеопатры и проблема перевода
-date: 2025-10-04
----
 
 Образ Клеопатры всегда вызывал у меня какое-то подростковое волнение. Возможно, ещё в нежном возрасте мне попадались на глаза постеры фильма 1963 г. с Элизабет Тэйлор. Если полистать кадры из фильма, там и сейчас есть от чего волноваться.  
 Сегодня мне на глаза попалась картина Ж.Л. Жерома «Клеопатра и Цезарь» (1866). Обратили на себя внимание огромные рука и стопа Аполлодора и какой-то невзрачный помятый ковёр. Намёк явный: сильный слуга тащил свою госпожу в этом ковре.
 
-```
-![ Жан-Леон Жером, «Клеопатра и Цезарь», 1866](/assets/images/posts/Cleopatra_and_Caesar_by_Jean-Leon-Gerome.jpg)
-```
 
-
-
-<figure style="float: left; margin: 0 1.5em 1.5em 0; width: 260px; max-width: 45%;">
-  <img src="{{ '/assets/images/Cleopatra_and_Caesar_by_Jean-Leon-Gerome.jpg' | relative_url }}"
+<div style="float: left; margin: 0 20px 20px 0; max-width: 260px;">
+  <img src="/tea_peaks_talks/assets/images/posts/Cleopatra_and_Caesar_by_Jean-Leon-Gerome.jpg" 
        alt="Клеопатра и Цезарь"
-       style="width: 100%; height: auto; border-radius: 4px; display: block;">
-  <figcaption style="font-size: 0.875em; color: #666; text-align: center; margin-top: 0.5em;">
+       style="width: 100%; height: auto; border-radius: 4px;">
+  <p style="font-size: 14px; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
     Жан-Леон Жером, «Клеопатра и Цезарь», 1866
-  </figcaption>
-</figure>
+  </p>
+</div>
 
 
 Историки находят в древних текстах сюжет о Цезаре, занявшем Александрию, и Клеопатре, которая пыталась проникнуть в охраняемый дворец, чтобы найти в лице Цезаря поддержку для войны со своим братом Птолемеем XIII. Но там нет ни слова о ковре. В дальнейшем будет много описаний того, как полунагая миниатюрная Клеопатра эффектно выскальзывает одновременно из ковра и из мускулистых рук своего слуги. И это явление сразило Цезаря. Он на картине Жерома аж стилус выронил. Этот сюжет неоднократно воспроизводился и в литературе, и в кино.
@@ -104,4 +95,5 @@ date: 2025-10-04
 [^6]: Whiting, George W. “The Cleopatra Rug Scene: Another Source.” *The Shaw Review* 3, no. 1 (1960): 15–17.  
 [^7]: https://www.gutenberg.org/files/3329/3329-h/3329-h.htm  
 [^8]: Eiland, Murray L. "rug and carpet". *Encyclopedia Britannica*, 13 May 2022. https://www.britannica.com/technology/rug-and-carpet
+
 

@@ -10,7 +10,8 @@ permalink: "/categories/"
 <ul>
 {% for post in category[1] %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <!-- ИСПРАВЛЕННАЯ СТРОКА: добавляем site.baseurl -->
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     <small>({{ post.date | date: "%d.%m.%Y" }})</small>
   </li>
 {% endfor %}

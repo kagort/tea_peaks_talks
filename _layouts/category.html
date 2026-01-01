@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>Категория: {{ page.category }}</h1>
+
+<ul>
+  {% for post in site.categories[page.category] %}
+    <li>
+      <!-- ВАЖНО: добавляем site.baseurl перед post.url -->
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+      <span>{{ post.date | date: "%d.%m.%Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
