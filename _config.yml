@@ -27,3 +27,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - assets/images/source/  # если будете хранить исходники
+  - _includes

@@ -1,0 +1,13 @@
+<!-- _includes/gallery.html -->
+{% if include.images %}
+<div class="post-gallery">
+  {% for image in include.images %}
+    <a href="{{ image | relative_url }}" data-lightbox="gallery" data-title="Фото {{ forloop.index }}">
+      <img src="{{ image | relative_url }}" loading="lazy" alt="Фото {{ forloop.index }}">
+    </a>
+  {% endfor %}
+</div>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+{% endif %}

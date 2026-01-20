@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
@@ -218,3 +219,13 @@ table td { border: 1px solid #e8e8e8; }
 .home-header { text-align: center; padding: 2rem 0; background: linear-gradient(135deg, #f9f5f0 0%, #fff 100%); border-bottom: 1px solid #eee; }
 
 .site-description { font-size: 1.2em; color: #666; max-width: 600px; margin: 0 auto; }
+
+/* === Галерея в постах — надёжная сетка === */
+/* Защита от случайных обёрток */
+.post-gallery { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important; gap: 12px !important; margin: 2rem 0 !important; padding: 0 !important; /* Сбрасываем возможные свойства родителя */ position: relative !important; z-index: 1 !important; }
+
+.post-gallery a { display: block !important; border-radius: 6px !important; overflow: hidden !important; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important; transition: transform 0.2s !important; }
+
+.post-gallery img { width: 100% !important; height: auto !important; display: block !important; aspect-ratio: 3 / 2; object-fit: cover; }
+
+.post-gallery a:hover { transform: scale(1.03) !important; }
