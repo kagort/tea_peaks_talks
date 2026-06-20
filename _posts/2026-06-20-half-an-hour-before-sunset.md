@@ -18,3 +18,148 @@ categories:
 
 В качестве иллюстрации к общему умонастроению прикладываю небольшой фотоальбом, который сформировался из последних событий жизни.
 
+<!-- Галерея изображений -->
+<div class="gallery-container">
+  <div class="gallery-wrapper">
+    <div class="gallery-slides">
+      <div class="gallery-slide">
+        <img src="{{ site.baseurl }}/assets/images/posts/bss_1.JPG" alt="Фото 1" loading="lazy">
+      </div>
+      <div class="gallery-slide">
+        <img src="{{ site.baseurl }}/assets/images/posts/bss_2.JPG" alt="Фото 2" loading="lazy">
+      </div>
+      <div class="gallery-slide">
+        <img src="{{ site.baseurl }}/assets/images/posts/bss-3.JPG" alt="Фото 3" loading="lazy">
+      </div>
+      <div class="gallery-slide">
+        <img src="{{ site.baseurl }}/assets/images/posts/bss-4.JPG" alt="Фото 4" loading="lazy">
+      </div>
+      <div class="gallery-slide">
+        <img src="{{ site.baseurl }}/assets/images/posts/bss-5.JPG" alt="Фото 5" loading="lazy">
+      </div>
+    </div>
+    <button class="gallery-prev">❮</button>
+    <button class="gallery-next">❯</button>
+  </div>
+  <div class="gallery-dots">
+    <span class="dot" data-index="0"></span>
+    <span class="dot" data-index="1"></span>
+    <span class="dot" data-index="2"></span>
+    <span class="dot" data-index="3"></span>
+    <span class="dot" data-index="4"></span>
+  </div>
+</div>
+
+<style>
+.gallery-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.gallery-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.gallery-slides {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.gallery-slide {
+  flex: 0 0 100%;
+  aspect-ratio: 16/9;
+}
+
+.gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-prev, .gallery-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s;
+  z-index: 10;
+}
+
+.gallery-prev:hover, .gallery-next:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.gallery-prev { left: 10px; }
+.gallery-next { right: 10px; }
+
+.gallery-prev:disabled, .gallery-next:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.gallery-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dot.active {
+  background: #333;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const slides = document.querySelector('.gallery-slides');
+  const prevBtn = document.querySelector('.gallery-prev');
+  const nextBtn = document.querySelector('.gallery-next');
+  const dots = document.querySelectorAll('.dot');
+  let currentIndex = 0;
+  const totalSlides = slides.children.length;
+
+  function updateGallery() {
+    slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    prevBtn.disabled = currentIndex === 0;
+    nextBtn.disabled = currentIndex === totalSlides - 1;
+    dots.forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentIndex);
+    });
+  }
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) { currentIndex--; updateGallery(); }
+  });
+
+  nextBtn.addEventListener('click', () => {
+    if (currentIndex < totalSlides - 1) { currentIndex++; updateGallery(); }
+  });
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => { currentIndex = index; updateGallery(); });
+  });
+
+  updateGallery();
+});
+</script>
