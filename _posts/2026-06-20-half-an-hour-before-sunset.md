@@ -71,13 +71,17 @@ categories:
 
 .gallery-slide {
   flex: 0 0 100%;
-  aspect-ratio: 16/9;
+  height: 520px;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   display: block;
 }
 
