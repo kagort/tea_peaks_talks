@@ -4,6 +4,7 @@ title: О вибрациях, резонансе и сморчках
 date: 2026-09-17 19:09:20 +03:00
 categories:
   - заметки
+  - смысл жизни
 ---
 <img src="{{ site.baseurl }}/assets/images/posts/30-ka-140.JPG" alt="Закат на море" style="width: 100%; max-width: 800px; display: block; margin: 0 auto 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
 
