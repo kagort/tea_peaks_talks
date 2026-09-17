@@ -7,7 +7,7 @@ nav_order: 3
 
 # Привет!
 
-Меня зовут [Ваше Имя]. Этот блог — моё цифровое убежищ.
+Меня зовут Павел. Этот блог — моё цифровое убежищ.
 
 ## Что меня вдохновляет
 
@@ -17,7 +17,7 @@ nav_order: 3
 
 ## Контакты
 
-- Email: ваш@email.com
+- Email: kagort@yandex.ru
 - GitHub: [kagort](https://github.com/kagort)
 - Telegram: @ваш_логин
 
