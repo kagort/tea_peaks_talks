@@ -8,7 +8,7 @@ categories: [заметки, разговоры]
 Кто-то не любит сухие вилы, и поэтому всё время ими водит по воде. Я же, стоя вчера вечером перед полкой с вином в магазине, понял, что давно не прогревал свои лопаты. Пришла пора копать.
 
 <div class="image-float-right">
-  <img src="{{ site.baseurl }}/assets/images/posts/zinfandel-bottle.png" alt="Бутылка Zinfandel «Рубино»" style="width: 100%; border-radius: 4px;">
+  <img src="{{ site.baseurl }}/assets/images/posts/zinfandel-bottle.png" alt="Бутылка Zinfandel «Рубино»" style="width: 25%; border-radius: 4px;">
   <p class="image-caption">Южноосетинский Zinfandel в калифорнийском стиле</p>
 </div>
 
