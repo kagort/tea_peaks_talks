@@ -4,6 +4,8 @@ title: "Чайный путь"
 permalink: /chay/
 ---
 
+<img src="{{ site.baseurl }}/assets/images/chay/logo.png" alt="Чайный путь — логотип" style="display: block; width: 140px; margin: 0 auto 1.5rem;">
+
 # Чайный путь
 
 Раздел о чае: заметки и лекции, глоссарий терминов и материалы Пятигорского чайного клуба (ПЧК).
