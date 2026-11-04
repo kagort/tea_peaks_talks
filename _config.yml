@@ -18,6 +18,13 @@ plugins:
 
 permalink: /:year/:month/:day/:title.html
 
+# Коллекция сортов чая раздела "Чайный путь" (каждый сорт из прайса ПЧК —
+# отдельная страница; permalink у каждого документа задан явно во front matter)
+collections:
+  chay_teas:
+    output: true
+    permalink: /chay/teas/:path/
+
 # Явный список страниц в верхнем меню (minima иначе покажет вообще все
 # page.title из site.pages, включая служебные подстраницы /chay/*)
 header_pages:
