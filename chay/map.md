@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Карта ПЧК — Чайный путь"
+title: "Чайная карта ПЧК — Чайный путь"
 permalink: /chay/map/
 ---
 
