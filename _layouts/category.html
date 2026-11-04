@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>Категория: {{ page.category }}</h1>
+<h1>{% if page.title %}{{ page.title }}{% else %}Категория: {{ page.category }}{% endif %}</h1>
 
 <ul>
   {% for post in site.categories[page.category] %}

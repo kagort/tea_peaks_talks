@@ -18,6 +18,13 @@ plugins:
 
 permalink: /:year/:month/:day/:title.html
 
+# Явный список страниц в верхнем меню (minima иначе покажет вообще все
+# page.title из site.pages, включая служебные подстраницы /chay/*)
+header_pages:
+  - about.md
+  - categories.md
+  - chay/index.md
+
 # Sass настройки должны быть в корне, не внутри exclude
 sass:
   sass_dir: assets/css
