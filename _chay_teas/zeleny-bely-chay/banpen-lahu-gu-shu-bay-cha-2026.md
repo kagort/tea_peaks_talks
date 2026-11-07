@@ -9,7 +9,7 @@ is_new: false
 ---
 *Только для дегустации в клубе (не для продажи)*
 
-**Тип:** [Зелёный и белый чай](/chay/teas/#zeleny-bely-chay)  
+**Тип:** [Зелёный и белый чай]({{ site.baseurl }}/chay/teas/#zeleny-bely-chay)  
 
-[← Ко всем сортам](/chay/teas/)
+[← Ко всем сортам]({{ site.baseurl }}/chay/teas/)
 

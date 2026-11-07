@@ -11,11 +11,11 @@ stock_g: 200
 price_per_g: 15
 attractive_price: true
 ---
-**Тип:** [Шэн пуэр](/chay/teas/#sheng-puer)  
+**Тип:** [Шэн пуэр]({{ site.baseurl }}/chay/teas/#sheng-puer)  
 **Код в прайсе ПЧК:** Raw 47  
 **Наличие:** 200 г  
 **Цена за грамм:** 15 ₽  
 **Цена за блин/банку целиком:** по привлекательной цене ●  
 
-[← Ко всем сортам](/chay/teas/)
+[← Ко всем сортам]({{ site.baseurl }}/chay/teas/)
 

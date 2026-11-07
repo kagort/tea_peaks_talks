@@ -28,4 +28,4 @@ nav_order: 3
 - [GitHub Pages](https://pages.github.com/) — бесплатный хостинг
 - Тема [Minima](https://github.com/jekyll/minima) с кастомизацией
 
-[Вернуться на главную →](/)
+[Вернуться на главную →]({{ site.baseurl }}/)
