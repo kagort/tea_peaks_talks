@@ -2,7 +2,7 @@
 layout: post
 title: "Пуэры от Института чая пуэр"
 date: 2026-01-02 11:08:00 +0300
-categories: [чай]
+categories: [чайный_путь]
 ---
 
 # sh-1:26
