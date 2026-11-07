@@ -64,4 +64,4 @@ permalink: /chay/teas/
 {% endfor %}
 </ul>
 
-[← Чайный путь](/chay/)
+[← Чайный путь]({{ site.baseurl }}/chay/)

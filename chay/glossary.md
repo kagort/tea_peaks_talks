@@ -14,4 +14,4 @@ permalink: /chay/glossary/
 {% endfor %}
 </dl>
 
-[← Чайный путь](/chay/)
+[← Чайный путь]({{ site.baseurl }}/chay/)

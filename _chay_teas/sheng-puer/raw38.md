@@ -10,10 +10,10 @@ is_new: false
 stock_g: 250
 price_per_g: 10
 ---
-**Тип:** [Шэн пуэр](/chay/teas/#sheng-puer)  
+**Тип:** [Шэн пуэр]({{ site.baseurl }}/chay/teas/#sheng-puer)  
 **Код в прайсе ПЧК:** Raw 38  
 **Наличие:** 250 г  
 **Цена за грамм:** 10 ₽  
 
-[← Ко всем сортам](/chay/teas/)
+[← Ко всем сортам]({{ site.baseurl }}/chay/teas/)
 
